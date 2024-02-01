@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citation Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Citation Generator</h1>
+    <div class="container">
+        
+        <div class="formList">
+            <form id="citationForm">
+
+                <label for="author">Author Name:</label>
+                <input type="text" id="author" name="author" required>
+    
+                <label for="author">Publication Year:</label>
+                <input type="text" id="publicYear" name="publicYear" required>
+    
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+    
+                <label for="website">Website Name</label>
+                <input type="url" id="website" name="website" required>
+    
+                <label for="link">Source Link</label>
+                <input type="text" id="link" name="link">
+    
+                <label for="date">Accessed Date</label>
+                <input type="date" id="date" name="date">
+    
+                <button type="button" onclick="generateCitation()">Generate Citation</button>
+            </form>
+        </div>
+       
+
+        <div class="result">
+            <p>Generated Citation</p>
+            <div id="citationResult" class="hello"></div>
+            <button onclick="copyToClipboard()">Copy to Clipboard</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
