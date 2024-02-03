@@ -8,13 +8,13 @@ body {
 
 .main {
     text-align: center;
-    background-color: white;
+  
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-around;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .formList{
-    width: 40%;
+    width: 30%;
 }
 
 .result{
@@ -60,5 +60,5 @@ body {
 
 .generatedResult{
     border:1px solid grey;
-    padding: 1rem;;
+    padding: 4rem;;
 }
